@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "justmetalcake/context-permissions",
+    "description": "Contextual pivot roles and permissions for Laravel on a per-model basis ",
     "keywords": [
-        ":vendor_name",
+        "JustMetalCake",
         "laravel",
-        ":package_slug"
+        "context-permissions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/JustMetalCake/context-permissions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Charlie Johnson",
+            "email": "charlieamjohnson@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "JustMetalCake\\ContextPermissions\\": "src/",
+            "JustMetalCake\\ContextPermissions\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "JustMetalCake\\ContextPermissions\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "JustMetalCake\\ContextPermissions\\ContextPermissionsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ContextPermissions": "JustMetalCake\\ContextPermissions\\Facades\\ContextPermissions"
             }
         }
     },
